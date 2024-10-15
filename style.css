@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.sidebar {
+    position: fixed;
+    width: 250px; 
+    height: 100%; 
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+
+}
+
+.main{
+    margin-left: 250px; 
+    padding: 20px;
+    background-color: lightyellow;
+}
+
+h1{
+    margin: 0 0 15px;
+    background-color: teal;
+}
+
+ul {
+    padding: 10px;
+    font-size: 22px;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+p{
+    font-size: 23px;
+    text-align: justify;
+    background-color: lightyellow;
+}
